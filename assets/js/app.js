@@ -283,3 +283,18 @@ function nextSlide(){
 }
 
 setInterval(nextSlide,4000);
+/*=========================
+CLICKABLE DOTS
+=========================*/
+
+dots.forEach((dot, index) => {
+
+    dot.addEventListener("click", () => {
+
+        currentSlide = index;
+
+        showSlide(currentSlide);
+
+    });
+
+});
