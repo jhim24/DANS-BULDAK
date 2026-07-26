@@ -310,10 +310,11 @@ height:100%;
 
 object-fit:cover;
 
+object-position:center;
+
 display:block;
 
 }
-
 .hero-overlay{
 
 position:absolute;
@@ -342,7 +343,7 @@ left:25px;
 
 right:25px;
 
-bottom:45px;
+bottom:70px;
 
 z-index:5;
 
@@ -813,10 +814,11 @@ grid-template-columns:repeat(3,1fr);
 
 .hero{
 
-height:100vh;
+height:calc(100vh - 134px);
+
+min-height:calc(100vh - 134px);
 
 }
-
 .hero h1{
 
 font-size:90px;
