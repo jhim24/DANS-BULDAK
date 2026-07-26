@@ -789,9 +789,13 @@ font-size:90px;
 
 body{
 
-max-width:480px;
+max-width:520px;
 
 margin:auto;
+
+background:#090909;
+
+min-height:100vh;
 
 border-left:1px solid #222;
 
