@@ -9,67 +9,75 @@ MENU DATA
 
 const products = [
 
+/*==========================
+BULDAK BOWLS
+==========================*/
+
 {
-id:1,
-name:"Original Cheesy Carbonara Buldak",
-category:"buldak",
-price:149,
-image:"assets/images/menu/original-cheesy-carbonara.jpg",
-description:"Creamy. Cheesy. Irresistible."
+    id:1,
+    name:"Original Cheesy Carbonara Buldak",
+    category:"buldak",
+    price:149,
+    image:"assets/images/menu/original-cheesy-carbonara.jpg",
+    description:"Creamy. Cheesy. Irresistible."
 },
 
 {
-id:2,
-name:"Double Cheese Carbonara Buldak",
-category:"buldak",
-price:169,
-image:"assets/images/menu/double-cheese-carbonara.jpg",
-description:"Twice the cheese. Twice the satisfaction."
+    id:2,
+    name:"Double Cheese Carbonara Buldak",
+    category:"buldak",
+    price:169,
+    image:"assets/images/menu/double-cheese-carbonara.jpg",
+    description:"Twice the cheese. Twice the satisfaction."
 },
 
 {
-id:3,
-name:"Extreme Spicy Carbonara Buldak",
-category:"buldak",
-price:159,
-image:"assets/images/menu/extreme-spicy-carbonara.jpg",
-description:"Extra spicy. Extra good."
+    id:3,
+    name:"Extreme Spicy Carbonara Buldak",
+    category:"buldak",
+    price:159,
+    image:"assets/images/menu/extreme-spicy-carbonara.jpg",
+    description:"Extra spicy. Extra good."
+},
+
+/*==========================
+ADD-ONS
+==========================*/
+
+{
+    id:4,
+    name:"Egg",
+    category:"addons",
+    price:20,
+    image:"assets/images/menu/egg.jpg",
+    description:"Perfect with Buldak."
 },
 
 {
-id:4,
-name:"Egg",
-category:"addons",
-price:20,
-image:"assets/images/menu/egg.jpg",
-description:"Add-on"
+    id:5,
+    name:"Spam",
+    category:"addons",
+    price:45,
+    image:"assets/images/menu/spam.jpg",
+    description:"Savory. Hearty. Delicious."
 },
 
 {
-id:5,
-name:"Spam",
-category:"addons",
-price:45,
-image:"assets/images/menu/spam.jpg",
-description:"Add-on"
+    id:6,
+    name:"Hotdog",
+    category:"addons",
+    price:35,
+    image:"assets/images/menu/hotdog.jpg",
+    description:"Juicy. Tasty. Always a hit!"
 },
 
 {
-id:6,
-name:"Hotdog",
-category:"addons",
-price:35,
-image:"assets/images/menu/hotdog.jpg",
-description:"Add-on"
-},
-
-{
-id:7,
-name:"Seaweed",
-category:"addons",
-price:20,
-image:"assets/images/menu/seaweed.jpg",
-description:"Add-on"
+    id:7,
+    name:"Seaweed",
+    category:"addons",
+    price:20,
+    image:"assets/images/menu/seaweed.jpg",
+    description:"Crispy. Savory. The perfect bite!"
 }
 
 ];
