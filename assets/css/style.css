@@ -256,6 +256,12 @@ position:relative;
 
 margin-top:134px;
 
+width:100vw;
+
+margin-left:calc(50% - 50vw);
+
+margin-right:calc(50% - 50vw);
+
 height:calc(100vh - 134px);
 
 min-height:calc(100vh - 134px);
@@ -274,8 +280,9 @@ height:100%;
 
 position:relative;
 
-}
+overflow:hidden;
 
+}
 .hero-slide{
 
 position:absolute;
@@ -310,7 +317,7 @@ height:100%;
 
 object-fit:cover;
 
-object-position:center;
+object-position:center center;
 
 display:block;
 
@@ -535,6 +542,11 @@ SECTION
 section{
 
 padding:30px 20px 20px;
+
+}
+.hero{
+
+padding:0;
 
 }
 /*==========================
