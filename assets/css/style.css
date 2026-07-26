@@ -62,9 +62,14 @@ header{
 position:fixed;
 
 top:0;
-left:0;
+
+left:50%;
+
+transform:translateX(-50%);
 
 width:100%;
+
+max-width:520px;
 
 height:70px;
 
@@ -159,9 +164,13 @@ position:fixed;
 
 top:70px;
 
-left:0;
+left:50%;
+
+transform:translateX(-50%);
 
 width:100%;
+
+max-width:520px;
 
 padding:12px 18px;
 
@@ -172,7 +181,6 @@ backdrop-filter:blur(12px);
 z-index:998;
 
 }
-
 .search-box{
 
 display:flex;
@@ -691,11 +699,15 @@ BOTTOM NAVIGATION
 
 position:fixed;
 
-left:0;
+left:50%;
+
+transform:translateX(-50%);
 
 bottom:0;
 
 width:100%;
+
+max-width:520px;
 
 height:72px;
 
@@ -709,10 +721,11 @@ align-items:center;
 
 border-top:1px solid #222;
 
+padding-bottom:env(safe-area-inset-bottom);
+
 z-index:999;
 
 }
-
 .bottom-nav a{
 
 display:flex;
