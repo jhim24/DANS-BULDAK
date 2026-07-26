@@ -10,7 +10,7 @@ const products = [
     category:"original",
     name:"Original Cheesy Carbonara Buldak",
     price:149,
-    image:"assets/images/products/original.jpg"
+    image:"assets/images/menu/original-cheesy-carbonara.jpg"
 },
 
 {
@@ -18,7 +18,7 @@ const products = [
     category:"double",
     name:"Double Cheese Carbonara Buldak",
     price:169,
-    image:"assets/images/products/double-cheese.jpg"
+    image:"assets/images/menu/double-cheese-carbonara.jpg"
 },
 
 {
@@ -26,7 +26,7 @@ const products = [
     category:"extreme",
     name:"Extreme Spicy Carbonara Buldak",
     price:159,
-    image:"assets/images/products/extreme.jpg"
+   image:"assets/images/menu/extreme-spicy-carbonara.jpg"
 }
 
 ];
