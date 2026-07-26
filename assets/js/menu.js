@@ -11,96 +11,68 @@ const products = [
 
 {
 id:1,
-name:"Original Cheesy Buldak",
+name:"Original Cheesy Carbonara Buldak",
 category:"buldak",
-price:199,
-image:"assets/images/menu/buldak1.jpg",
-description:"Creamy Korean Carbonara."
+price:149,
+image:"assets/images/menu/original-cheesy-carbonara.jpg",
+description:"Creamy. Cheesy. Irresistible."
 },
 
 {
 id:2,
-name:"Double Cheese Buldak",
+name:"Double Cheese Carbonara Buldak",
 category:"buldak",
-price:239,
-image:"assets/images/menu/buldak2.jpg",
-description:"Extra mozzarella cheese."
+price:169,
+image:"assets/images/menu/double-cheese-carbonara.jpg",
+description:"Twice the cheese. Twice the satisfaction."
 },
 
 {
 id:3,
-name:"Extreme Spicy Buldak",
+name:"Extreme Spicy Carbonara Buldak",
 category:"buldak",
-price:229,
-image:"assets/images/menu/buldak3.jpg",
-description:"Extra hot Korean flavor."
+price:159,
+image:"assets/images/menu/extreme-spicy-carbonara.jpg",
+description:"Extra spicy. Extra good."
 },
 
 {
 id:4,
-name:"Kimchi Ramen",
-category:"ramen",
-price:169,
-image:"assets/images/menu/ramen1.jpg",
-description:"Classic Korean ramen."
+name:"Egg",
+category:"addons",
+price:20,
+image:"assets/images/menu/egg.jpg",
+description:"Add-on"
 },
 
 {
 id:5,
-name:"Cheese Ramen",
-category:"ramen",
-price:179,
-image:"assets/images/menu/ramen2.jpg",
-description:"Creamy ramen."
+name:"Spam",
+category:"addons",
+price:45,
+image:"assets/images/menu/spam.jpg",
+description:"Add-on"
 },
 
 {
 id:6,
-name:"Bulgogi Rice",
-category:"rice",
-price:199,
-image:"assets/images/menu/rice1.jpg",
-description:"Korean beef rice."
+name:"Hotdog",
+category:"addons",
+price:35,
+image:"assets/images/menu/hotdog.jpg",
+description:"Add-on"
 },
 
 {
 id:7,
-name:"Chicken Rice",
-category:"rice",
-price:189,
-image:"assets/images/menu/rice2.jpg",
-description:"Crispy chicken meal."
-},
-
-{
-id:8,
-name:"Iced Tea",
-category:"drinks",
-price:59,
-image:"assets/images/menu/drink1.jpg",
-description:"Refreshing drink."
-},
-
-{
-id:9,
-name:"Korean Soda",
-category:"drinks",
-price:79,
-image:"assets/images/menu/drink2.jpg",
-description:"Sparkling soda."
-},
-
-{
-id:10,
-name:"Extra Cheese",
+name:"Seaweed",
 category:"addons",
-price:35,
-image:"assets/images/menu/addon1.jpg",
-description:"Mozzarella topping."
+price:20,
+image:"assets/images/menu/seaweed.jpg",
+description:"Add-on"
 }
 
 ];
-
 /*==========================
 ELEMENTS
 ==========================*/
