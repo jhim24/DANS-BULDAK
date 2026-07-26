@@ -256,13 +256,13 @@ position:relative;
 
 margin-top:134px;
 
-min-height:520px;
+height:calc(100vh - 134px);
 
-height:70vh;
+min-height:calc(100vh - 134px);
 
 overflow:hidden;
 
-border-radius:0 0 30px 30px;
+border-radius:0;
 
 }
 
