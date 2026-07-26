@@ -236,7 +236,9 @@ position:relative;
 
 margin-top:134px;
 
-height:78vh;
+min-height:520px;
+
+height:70vh;
 
 overflow:hidden;
 
